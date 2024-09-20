@@ -1,3 +1,6 @@
+## UNRELEASED
+- Improved rack 3 compatibility, where response is getting memoized into array before process it.
+
 ## 1.2.1
 
 - Use autoloading for internal modules. A user using Redis does not have to load the ActiveRecord storage backend, for example
